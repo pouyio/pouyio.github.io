@@ -1,0 +1,246 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: rgb(223, 223, 223);
+}
+a {
+  color: rgb(123, 163, 219);
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(24, 55, 105);
+}
+.section-title {
+  font-family: impact;
+  color: rgb(24, 55, 105);
+  font-size: 1.7em;
+}
+
+/*-------------------------HEADER-------------------------------*/
+
+.header {
+  font-family: serif;
+  display: flex;
+  background: rgb(210, 222, 237);
+  align-items: stretch;
+  color: rgb(24, 55, 105);
+  width: 100%;
+}
+.header-main {
+  text-align: center;
+  padding: 1.3em;
+  flex: 1 1 100%;
+}
+.header-image {
+  border-radius: 7px;
+}
+.title {
+  font-size: 3em;
+  margin-top: 0;
+  font-family: impact;
+}
+.subtitle {
+  font-weight: lighter;
+}
+.header-links {
+  padding: 1.3em;
+  background: rgb(24, 55, 105);
+  color: rgb(24, 55, 105);
+  font-family: sans-serif;
+  flex: 1 10 100%;
+  min-width: 250px;
+}
+.header-links > img {
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+}
+.header-links > ul {
+  list-style: none;
+  padding: .5em 0;
+  white-space: nowrap;
+}
+.header-links li {
+  margin: .4em .1em;
+  font-size: .9em;
+  background: rgb(223, 223, 223);
+  padding: .3em .5em;
+  border-radius: 10px;
+  width: auto;
+}
+.language-toggle {
+  cursor: pointer;
+}
+.fa {
+  font-size: 1.3em;
+}
+.flag {
+  width: 1.5em;
+}
+hr {
+  border: 2px solid rgb(24, 55, 105);
+}
+.goals-text, .goals {
+  text-align: right;
+  font-style: italic;
+}
+
+/*-------------------------EXPERIENCE-------------------------------*/
+
+.experience {
+  background: white;
+  border-right: 3px solid rgb(24, 55, 105);
+  padding: 0 .8em;
+  flex: 65 1 1em;
+  max-width: 800px;
+  font-family: Georgia, serif;
+}
+article {
+  margin-bottom: 1.5em;
+}
+.work-title {
+  display: inline;
+  margin-left: 1em;
+  font-size: 1.1em;
+  color: rgb(24, 55, 105);
+}
+.work-date {
+  color: rgb(24, 55, 105);
+  float: right;
+  margin-right: 1em;
+  font-weight: lighter;
+}
+
+/*-------------------------ABILITIES-------------------------------*/
+
+.abilities {
+  background: white;
+  padding: 0 .8em;
+  flex: 35 1 1em;
+  max-width: 350px;
+  font-family: Georgia, serif;
+}
+.uni-location {
+  display: inline-block;
+  margin-top: 0;
+}
+.uni-title {
+  font-size: 1.1em;
+  margin-bottom: .7em;
+  font-family: Georgia, serif;
+}
+.uni-date {
+  float: right;
+  margin-top: 0;
+  margin-right: 1em;
+  font-weight: lighter;
+}
+.languages li {
+  white-space: normal;
+  /*overflow: hidden;
+  text-overflow: ellipsis;*/
+}
+.abilities ul {
+  list-style: none;
+  padding: 0;
+  white-space: nowrap;
+}
+.abilities li {
+  padding: .3em 0;
+}
+.abilities li:first-child {
+  padding: 0;
+}
+progress {
+  width: 100%;
+  height: 20px;
+  border-radius: 1px;
+  display: block;
+}
+progress::-webkit-progress-bar {
+  background: rgb(210, 222, 237);
+  border-radius: 5px;
+}
+progress::-webkit-progress-value {
+  border-radius: 5px;
+  background: rgb(24, 55, 105);
+}
+.table-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0 .7em;
+}
+.table-container img {
+  width: 33%;
+  padding: 1em;
+}
+button {
+  border: none;
+  border-radius: 3px;
+}
+
+/*-------------------------FOOTER-------------------------------*/
+
+.footer {
+  width: 100%;
+  text-align: center;
+}
+.footer ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+/*-------------------------MEDIA QUERIES-------------------------------*/
+
+@media all and (max-width: 700px) {
+  body {
+    font-size: .93em;
+  }
+  /*-------------------------HEADER-------------------------------*/
+  .header {
+    flex-wrap: wrap;
+  }
+  .header-main {
+    min-width: 100%;
+  }
+  .header-links {
+    min-width: 100%;
+  }
+  .header-links > img {
+    display: none;
+  }
+  .header-links ul {
+    white-space: normal;
+    text-align: center;
+  }
+  .header-links li {
+    display: inline-block;
+  }
+  /*-------------------------EXPERIENCE-------------------------------*/
+  .experience {
+    flex: 1 1 100%;
+    min-width: 100%;
+    border-right: none;
+    border-bottom: 3px solid rgb(24, 55, 105);
+  }
+  /*-------------------------ABILITIES-------------------------------*/
+  .abilities {
+    flex: 1 1 100%;
+    min-width: 100%;
+  }
+  .table-container {
+    justify-content: space-between;
+    ;
+  }
+  .table-container img {
+    width: 20%;
+  }
+}

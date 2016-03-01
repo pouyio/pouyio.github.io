@@ -1,0 +1,191 @@
+data = {
+  "spanish": {
+    "subtitle": "Graduado Ingeniería Industrial Electrónica y Automática",
+    "goals": "Objetivos",
+    "goalsText": "Mi objetivo a corto plazo sería obtener experiencia de calidad al mismo tiempo que mejoro mi formación e implemento las últimas tecnologías y procesos de desarrollo en el trabajo diario.",
+    "linkDownload": "<a href=\"pdf/Vicente_Ortiz_CV.pdf\"><i class=\"fa fa-download\"></i> Descargar como PDF</a>",
+    "education": {
+      "title": "Educación",
+      "degree": "Grado Ing. Industrial Electrónica",
+      "location": "Univ. Castilla la Mancha",
+      "date": "2010 - 2015"
+    },
+    "languages": {
+      "title": "Idiomas",
+      "list": [{
+        "item": "Español",
+        "level": "Nativo"
+      }, {
+        "item": "Inglés",
+        "level": "B2, Cambridge First (FCE)"
+      }, {
+        "item": "Francés",
+        "level": "A1"
+      }]
+    },
+    "skills": {
+      "title": "Competencias",
+      "pro": {
+        "title": "Profesionales",
+        "list": [{
+          "item": "C/C++ (Microcontroladores)",
+          "level": "70"
+        }, {
+          "item": "HTML/CSS)",
+          "level": "50"
+        }, {
+          "item": "Javascript",
+          "level": "60"
+        }, {
+          "item": "Android",
+          "level": "30"
+        }, {
+          "item": "Robótica",
+          "level": "70"
+        }, {
+          "item": "Arduino",
+          "level": "90"
+        }, {
+          "item": "Raspberry Pi",
+          "level": "60"
+        }]
+      },
+      "complementary": {
+        "title": "Complementarias",
+        "list": ["images/logos/apple.png",
+          "images/logos/linux.png",
+          "images/logos/windows.png",
+          "images/logos/latex.png",
+          "images/logos/processing.png",
+          "images/logos/qt.png",
+          "images/logos/github.png",
+          "images/logos/gulp.png",
+          "images/logos/sass.png"
+        ]
+      }
+    },
+    "experiences": {
+      "title": "Experiencia y voluntariado",
+      "list": [{
+        "title": "<a href=\"http://qubic.es\" target=\"_new\">Qubic</a>",
+        "date": "2012 - Actualidad",
+        "text": "Miembro senior de esta asociación de estudiantes dedicada a impartir exposiciones técnicas, organizar eventos en universidades de España y realizar proyectos de ingeniería."
+      }, {
+        "title": "Prácticas en empresa <a href=\"http://www.i3a.uclm.es/site/index.php\" target=\"_new\"> I3A</a>",
+        "date": "Junio - Septiembre 2014",
+        "text": "Realización de un sistema de iluminación inteligente, embarcado en el proyecto INT3-Horus. Realicé investigación de mercado, análisis, diseño, construcción y programación de la solución óptima, ensayos y exposición de conclusiones."
+      }, {
+        "title": "Voluntario <a href=\"http://www.forousa.es\" target=\"_new\">Foro USAES</a> varias ediciones",
+        "date": "2013 - 2015",
+        "text": "Organización y logística de este evento realizado en distintas universidades de España: Albacete, León, Valencia y Castellón. Jornada con ponencias de estudiantes becados en EEUU intercalando coffee breaks con los asistentes."
+      }, {
+        "title": "Voluntario <a href=\"http://www.campus-party.org\" target=\"_new\">Campus Party</a>",
+        "date": "Septiembre 2013",
+        "text": "Voluntariado en la edición de Londres para la organización de las exposiciones y talleres durante siete días así como dando soporte técnico."
+      }, {
+        "title": "Robot Limpiosity",
+        "date": "Octubre - Diciembre 2013",
+        "text": "Diseño electrónico, montaje y programación de un robot limpiasuelos que se realizó en coordinación en un grupo de tres personas con elementos reciclados."
+      }, {
+        "title": "Participante <a href=\"http://yuzz.org.es\" target=\"_new\">Yuzz</a>",
+        "date": "Octubre 2012 - Mayo 2013",
+        "text": "Seleccionado y participante en este programa para emprendedores diseñando un proyecto de empresa sobre robots didácticos para jóvenes."
+      }]
+    }
+  },
+  "english": {
+    "subtitle": "Degree in Electronics Engineer",
+    "goals": "Goals",
+    "goalsText": "My short-term goal is getting high quality experience meanwhile I improve my formation and implement new technologies and proceses in the daily work.",
+    "linkDownload": "<a href=\"pdf/Vicente_Ortiz_CV.pdf\"><i class=\"fa fa-download\"></i> Download PDF</a>",
+
+    "education": {
+      "title": "Education",
+      "degree": "Electronics Engineering degree",
+      "location": "University of Castilla La Mancha",
+      "date": "2010 - 2015"
+    },
+    "languages": {
+      "title": "Languages",
+      "list": [{
+        "item": "Spanish",
+        "level": "Native"
+      }, {
+        "item": "English",
+        "level": "B2, Cambridge First (FCE)"
+      }, {
+        "item": "French",
+        "level": "A1"
+      }]
+    },
+    "skills": {
+      "title": "Competences",
+      "pro": {
+        "title": "Proffesionals",
+        "list": [{
+          "item": "C/C++ (Microcontrollers)",
+          "level": "70"
+        }, {
+          "item": "HTML/CSS)",
+          "level": "50"
+        }, {
+          "item": "Javascript",
+          "level": "60"
+        }, {
+          "item": "Android",
+          "level": "30"
+        }, {
+          "item": "Robotics",
+          "level": "70"
+        }, {
+          "item": "Arduino",
+          "level": "90"
+        }, {
+          "item": "Raspberry Pi",
+          "level": "60"
+        }]
+      },
+      "complementary": {
+        "title": "Complementary",
+        "list": ["images/logos/apple.png",
+          "images/logos/linux.png",
+          "images/logos/windows.png",
+          "images/logos/latex.png",
+          "images/logos/processing.png",
+          "images/logos/qt.png",
+          "images/logos/github.png",
+          "images/logos/gulp.png",
+          "images/logos/sass.png"
+        ]
+      }
+    },
+    "experiences": {
+      "title": "Experience and volunteering",
+      "list": [{
+        "title": "<a href=\"http://qubic.es\" target=\"_new\">Qubic</a>",
+        "date": "2012 - Nowadays",
+        "text": "Senior member of this student assosiaction dedicated to organize workshops and technical expositions, organize events in spanish univeersities and build engineering projects."
+      }, {
+        "title": "Internship in <a href=\"http://www.i3a.uclm.es/site/index.php\" target=\"_new\"> I3A</a>",
+        "date": "June - September 2014",
+        "text": "Building of an intelligent lighting system embebd in INT3-Horus project. I made a market research, analysis, design and construction and programming of the optimal solution, tests and showing the results."
+      }, {
+        "title": "Volunteer in <a href=\"http://www.forousa.es\" target=\"_new\">Foro USAES</a> several editions",
+        "date": "2013 - 2015",
+        "text": "Organizing logistic task of this event celebrated in some spanish universities such as: Albacete, Leon, Valencia and Castellon. It consists of a whole day with speeches from students with important scholarships in USA with coffee breaks for speakers and assistants."
+      }, {
+        "title": "Volunteer in <a href=\"http://www.campus-party.org\" target=\"_new\">Campus Party</a>",
+        "date": "September 2013",
+        "text": "Volunteer in London's edition organizing workshops during seven days as well as giving technical support."
+      }, {
+        "title": "Limpiosity robot",
+        "date": "October - December 2013",
+        "text": "Electronic design, build and programming of an autonomous robotic vacuum cleaner made of recycled parts in a group of three students."
+      }, {
+        "title": "<a href=\"http://yuzz.org.es\" target=\"_new\">Yuzz</a> competitor",
+        "date": "October 2012 - May 2013",
+        "text": "Elected in a process selection to compete in a national entrepreneurs contest designing a business project about robotic toys for learning purposes."
+      }]
+    }
+  }
+}
