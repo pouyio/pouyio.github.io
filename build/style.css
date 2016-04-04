@@ -49,11 +49,24 @@ a:hover {
 }
 .header-main {
   text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  /*justify-content: center;*/
   padding: 1.3em;
   -webkit-box-flex: 1;
   -webkit-flex: 1 1 100%;
       -ms-flex: 1 1 100%;
           flex: 1 1 100%;
+}
+hr {
+  width: 100%;
 }
 .header-image {
   border-radius: 7px;

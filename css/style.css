@@ -35,8 +35,14 @@ a:hover {
 }
 .header-main {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  /*justify-content: center;*/
   padding: 1.3em;
   flex: 1 1 100%;
+}
+hr {
+  width: 100%;
 }
 .header-image {
   border-radius: 7px;
