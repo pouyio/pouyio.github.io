@@ -31,7 +31,7 @@ data = {
           "item": "C/C++ (Microcontroladores)",
           "level": "70"
         }, {
-          "item": "HTML/CSS)",
+          "item": "HTML/CSS",
           "level": "50"
         }, {
           "item": "Javascript",
@@ -82,6 +82,10 @@ data = {
         "title": "Voluntario <a href=\"http://www.campus-party.org\" target=\"_new\">Campus Party</a>",
         "date": "Septiembre 2013",
         "text": "Voluntariado en la edición de Londres para la organización de las exposiciones y talleres durante siete días así como dando soporte técnico."
+      },{
+        "title": "Curso impresión 3D y domótica",
+        "date": "Abril 2016",
+        "text": "Curso de 60h. el que se asimilaron conceptos de domótica así como métodos de instalación y el montaje y puesta en marcha de una impresora 3D prusa."
       }, {
         "title": "Robot Limpiosity",
         "date": "Octubre - Diciembre 2013",
@@ -126,7 +130,7 @@ data = {
           "item": "C/C++ (Microcontrollers)",
           "level": "70"
         }, {
-          "item": "HTML/CSS)",
+          "item": "HTML/CSS",
           "level": "50"
         }, {
           "item": "Javascript",
@@ -177,6 +181,10 @@ data = {
         "title": "Volunteer in <a href=\"http://www.campus-party.org\" target=\"_new\">Campus Party</a>",
         "date": "September 2013",
         "text": "Volunteer in London's edition organizing workshops during seven days as well as giving technical support."
+      }, {
+        "title": "3D printing and home automation course",
+        "date": "April 2016",
+        "text": "60h. course in which I learnt home automation concepts and ways to implement it. I also built a Prusa 3D printer and tested it."
       }, {
         "title": "Limpiosity robot",
         "date": "October - December 2013",
