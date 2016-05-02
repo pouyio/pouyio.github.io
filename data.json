@@ -87,7 +87,7 @@ data = {
         "date": "Abril 2016",
         "text": "Curso de 60h. el que se asimilaron conceptos de domótica así como métodos de instalación y el montaje y puesta en marcha de una impresora 3D prusa."
       }, {
-        "title": "Robot Limpiosity",
+        "title": "Robot <a href=\"http://limpiosity.qubic.es\" target=\"_new\">Limpiosity</a>",
         "date": "Octubre - Diciembre 2013",
         "text": "Diseño electrónico, montaje y programación de un robot limpiasuelos que se realizó en coordinación en un grupo de tres personas con elementos reciclados."
       }, {
@@ -186,7 +186,7 @@ data = {
         "date": "April 2016",
         "text": "60h. course in which I learnt home automation concepts and ways to implement it. I also built a Prusa 3D printer and tested it."
       }, {
-        "title": "Limpiosity robot",
+        "title": "<a href=\"http://limpiosity.qubic.es\" target=\"_new\">Limpiosity</a> robot",
         "date": "October - December 2013",
         "text": "Electronic design, build and programming of an autonomous robotic vacuum cleaner made of recycled parts in a group of three students."
       }, {
