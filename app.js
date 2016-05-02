@@ -13,6 +13,9 @@
 
       // =============MAIN=============
       this.$mainSubtitle = this.$cv.find('#main-subtitle');
+      this.$downloadLink = this.$cv.find('#download-link');
+      this.$mainBenefits = this.$cv.find('#main-benefits');
+      this.$mainBenefitsText = this.$cv.find('#main-benefits-text');
       this.$mainGoals = this.$cv.find('#main-goals');
       this.$mainGoalsText = this.$cv.find('#main-goals-text');
       this.$downloadLink = this.$cv.find('#download-link');
@@ -48,6 +51,8 @@
       var translatedStrings = data[language];
       // =============MAIN=============
       this.$mainSubtitle.text(translatedStrings.subtitle);
+      this.$mainBenefits.text(translatedStrings.benefits);
+      this.$mainBenefitsText.html(translatedStrings.benefitsText);
       this.$mainGoals.text(translatedStrings.goals);
       this.$mainGoalsText.text(translatedStrings.goalsText);
       this.$downloadLink.html(translatedStrings.linkDownload);

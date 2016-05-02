@@ -1,6 +1,8 @@
 data = {
   "spanish": {
     "subtitle": "Graduado Ingeniería Industrial Electrónica y Automática",
+    "benefits": "Incentivos a la contratación",
+    "benefitsText": "Soy beneficiario del <a href=\"http://www.empleo.gob.es/ficheros/garantiajuvenil/documentos/Folleto_Nuevos_Incentivos.pdf\">“Sistema Nacional de Garantía Juvenil”</a> y del <a href=\"http://www.empleoygarantiajuvenil.es/empresa\">“Programa Integral de cualificación y empleo”</a> por los cuales mi contratación contaría con incentivos económicos y fiscales.",
     "goals": "Objetivos",
     "goalsText": "Mi objetivo a corto plazo sería obtener experiencia de calidad al mismo tiempo que mejoro mi formación e implemento las últimas tecnologías y procesos de desarrollo en el trabajo diario.",
     "linkDownload": "<a href=\"pdf/Vicente_Ortiz_CV.pdf\"><i class=\"fa fa-download\"></i> Descargar como PDF</a>",
@@ -99,6 +101,8 @@ data = {
   },
   "english": {
     "subtitle": "Degree in Electronics Engineer",
+    "benefits": "Hiring benefits",
+    "benefitsText": "I benefit from the plan called <a href=\"http://www.empleo.gob.es/ficheros/garantiajuvenil/documentos/Folleto_Nuevos_Incentivos.pdf\">“Sistema Nacional de Garantía Juvenil”</a> and <a href=\"http://www.empleoygarantiajuvenil.es/empresa\">“Programa Integral de cualificación y empleo”</a> thanks to which hiring me counts with several economics and tax reductions.",
     "goals": "Goals",
     "goalsText": "My short-term goal is getting high quality experience meanwhile I improve my formation and implement new technologies and proceses in the daily work.",
     "linkDownload": "<a href=\"pdf/Vicente_Ortiz_CV.pdf\"><i class=\"fa fa-download\"></i> Download PDF</a>",

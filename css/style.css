@@ -44,6 +44,14 @@ a:hover {
 hr {
   width: 100%;
 }
+.header-container {
+  display: flex;
+  justify-content: center;
+}
+.sub {
+  flex-direction: column;
+  max-width: 30em;
+}
 .header-image {
   border-radius: 7px;
 }
@@ -95,8 +103,8 @@ hr {
   border: 2px solid rgb(24, 55, 105);
 }
 .goals-text, .goals {
-  text-align: right;
   font-style: italic;
+  margin-bottom: 0;
 }
 
 /*-------------------------EXPERIENCE-------------------------------*/
@@ -218,6 +226,15 @@ button {
   .header-main {
     min-width: 100%;
   }
+  .title {
+    font-size: 2.8em;
+  }
+  .header-container {
+    flex-direction: column;
+  }
+  .sub {
+    max-width: inherit;
+  }
   .header-links {
     min-width: 100%;
   }
@@ -230,6 +247,9 @@ button {
   }
   .header-links li {
     display: inline-block;
+  }
+  .goals-text, .goals {
+    text-align: right;
   }
   /*-------------------------EXPERIENCE-------------------------------*/
   .experience {
@@ -245,7 +265,6 @@ button {
   }
   .table-container {
     justify-content: space-between;
-    ;
   }
   .table-container img {
     width: 20%;

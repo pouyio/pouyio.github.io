@@ -68,6 +68,24 @@ a:hover {
 hr {
   width: 100%;
 }
+.header-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.sub {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 30em;
+}
 .header-image {
   border-radius: 7px;
 }
@@ -122,8 +140,8 @@ hr {
   border: 2px solid rgb(24, 55, 105);
 }
 .goals-text, .goals {
-  text-align: right;
   font-style: italic;
+  margin-bottom: 0;
 }
 
 /*-------------------------EXPERIENCE-------------------------------*/
@@ -261,6 +279,19 @@ button {
   .header-main {
     min-width: 100%;
   }
+  .title {
+    font-size: 2.8em;
+  }
+  .header-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .sub {
+    max-width: inherit;
+  }
   .header-links {
     min-width: 100%;
   }
@@ -273,6 +304,9 @@ button {
   }
   .header-links li {
     display: inline-block;
+  }
+  .goals-text, .goals {
+    text-align: right;
   }
   /*-------------------------EXPERIENCE-------------------------------*/
   .experience {
@@ -297,7 +331,6 @@ button {
     -webkit-justify-content: space-between;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    ;
   }
   .table-container img {
     width: 20%;
