@@ -94,6 +94,31 @@ hr {
   margin: 0;
   font-family: impact;
 }
+.title::after {
+  content: '|';
+  -webkit-animation-name: blinking;
+          animation-name: blinking;
+  -webkit-animation-duration: 750ms;
+          animation-duration: 750ms;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+@-webkit-keyframes blinking {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes blinking {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 .subtitle {
   font-weight: lighter;
 }

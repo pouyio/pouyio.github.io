@@ -60,6 +60,20 @@ hr {
   margin: 0;
   font-family: impact;
 }
+.title::after {
+  content: '|';
+  animation-name: blinking;
+  animation-duration: 750ms;
+  animation-iteration-count: infinite;
+}
+@keyframes blinking {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 .subtitle {
   font-weight: lighter;
 }

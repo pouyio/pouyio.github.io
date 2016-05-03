@@ -5,6 +5,7 @@
       this.cacheDOM();
       this.bindEvent();
       cv.translateTo("spanish");
+      this.theater();
     },
     cacheDOM: function() {
       this.$cv = $('#cv-container');
@@ -98,6 +99,14 @@
     insertLanguages: function(languageItem) {
       var li = "<li><strong>" + languageItem.item + " - </strong> " + languageItem.level + "</li>";
       this.$languagesUl.append(li);
+    },
+    theater: function() {
+      var theater = theaterJS({
+        "minSpeed": 80,
+        "maxSpeed": 250
+      });
+      theater.addActor('main-title');
+      theater.addScene('main-title:Vicente Ortiz García-Cervigón');
     }
   }
   cv.init();
