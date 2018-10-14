@@ -1,10 +1,8 @@
 data = {
   "spanish": {
-    "subtitle": "Graduado Ingeniería Industrial Electrónica y Automática",
-    "benefits": "Incentivos a la contratación",
-    "benefitsText": "Soy beneficiario del <a href=\"http://www.empleo.gob.es/ficheros/garantiajuvenil/documentos/Folleto_Nuevos_Incentivos.pdf\">“Sistema Nacional de Garantía Juvenil”</a> y del <a href=\"http://www.empleoygarantiajuvenil.es/empresa\">“Programa Integral de cualificación y empleo”</a> por los cuales mi contratación contaría con incentivos económicos y fiscales.",
+    "subtitle": "Desarrollador (Web || Frontend || JavaScript)",
     "goals": "Objetivos",
-    "goalsText": "Mi objetivo a corto plazo sería obtener experiencia de calidad al mismo tiempo que mejoro mi formación e implemento las últimas tecnologías y procesos de desarrollo en el trabajo diario.",
+    "goalsText": "Mis inquietudes diarias están orientadas a las tecnologías frontend. Siempre busco la mejora y eficiencia tanto técnica como profesionalmente. También me interesan otros ámbitos como Backend, DevOps, Machine Learning y gestión de equipos.",
     "linkDownload": "<a href=\"pdf/Vicente_Ortiz_CV.pdf\"><i class=\"fa fa-download\"></i> Descargar como PDF</a>",
     "education": {
       "title": "Educación",
@@ -20,9 +18,6 @@ data = {
       }, {
         "item": "Inglés",
         "level": "B2, Cambridge First (FCE)"
-      }, {
-        "item": "Francés",
-        "level": "A1"
       }]
     },
     "skills": {
@@ -30,26 +25,23 @@ data = {
       "pro": {
         "title": "Profesionales",
         "list": [{
-          "item": "C/C++ (Microcontroladores)",
-          "level": "70"
+          "item": "Javascript/Node",
+          "level": "95"
         }, {
-          "item": "HTML/CSS",
-          "level": "50"
-        }, {
-          "item": "Javascript",
-          "level": "60"
-        }, {
-          "item": "Android",
-          "level": "30"
-        }, {
-          "item": "Robótica",
-          "level": "70"
-        }, {
-          "item": "Arduino",
+          "item": "Angular/Typescript",
           "level": "90"
         }, {
-          "item": "Raspberry Pi",
-          "level": "60"
+          "item": "HTML/CSS",
+          "level": "70"
+        }, {
+          "item": "React",
+          "level": "45"
+        }, {
+          "item": "angular js",
+          "level": "50"
+        }, {
+          "item": "Java",
+          "level": "40"
         }]
       },
       "complementary": {
@@ -60,7 +52,7 @@ data = {
           "images/logos/latex.png",
           "images/logos/processing.png",
           "images/logos/qt.png",
-          "images/logos/github.png",
+          "images/logos/git.png",
           "images/logos/gulp.png",
           "images/logos/sass.png"
         ]
@@ -71,7 +63,11 @@ data = {
       "list": [{
         "title": "Desarrollador en <a href=\"http://www.everis.com/global/en-US/home/Paginas/home.aspx\" target=\"_new\">Everis</a>",
         "date": "Julio 2016 - Actualidad",
-        "text": "Desarrolador de aplicaciones web full stack usando Java, Spring y Apache Tiles en Alicante."
+        "text": "He trabajado en varios proyectos, tanto para clientes finales como herramientas internas, en los cuales he usado jQuery, angular, java, arquitectura REST, Spring, MySQL, MongoDB y git entre otros. También toda la suite de Atlassian para la gestión y metodologías ágiles. Durante este tiempo he conseguido avanzar desde junior a ser mentor y considerado experto en mi ámbito y referente en el centro de Alicante, con más de mil empleados."
+      },{
+        "title": "Voluntario en <a href=\"http://www.everis.com/global/en-US/home/Paginas/home.aspx\" target=\"_new\">Everis</a>",
+        "date": "Junio 2016 - Actualidad",
+        "text": "He sido integrante de forma altruista de la organización en Alicante de varios eventos como son <a href=\"https://www.womentechmakers.com/\" target=\"_new\">Women Tech Makers</a> o <a href=\"https://hashcode.withgoogle.com/\" target=\"_new\">Hash Code</a>, ambos ideados por Google o <a href=\"https://2018.spaceappschallenge.org/\" target=\"_new\">Space Apps Challenge</a> convocado por la NASA. A su vez trabajo en proyectos laterales, personales y con otros compañeros, explorando otras tecnologías como Amazon Web Services o Docker."
       },{
         "title": "<a href=\"http://qubic.es\" target=\"_new\">Qubic</a>",
         "date": "2012 - 2017",
@@ -85,14 +81,6 @@ data = {
         "date": "2013 - 2015",
         "text": "Organización y logística de este evento realizado en distintas universidades de España: Albacete, León, Valencia y Castellón. Jornada con ponencias de estudiantes becados en EEUU intercalando coffee breaks con los asistentes."
       }, {
-        "title": "Voluntario <a href=\"http://www.campus-party.org\" target=\"_new\">Campus Party</a>",
-        "date": "Septiembre 2013",
-        "text": "Voluntariado en la edición de Londres para la organización de las exposiciones y talleres durante siete días así como dando soporte técnico."
-      },{
-        "title": "Curso impresión 3D y domótica",
-        "date": "Abril 2016",
-        "text": "Curso de 60h. el que se asimilaron conceptos de domótica así como métodos de instalación y el montaje y puesta en marcha de una impresora 3D prusa."
-      }, {
         "title": "Robot <a href=\"http://limpiosity.qubic.es\" target=\"_new\">Limpiosity</a>",
         "date": "Octubre - Diciembre 2013",
         "text": "Diseño electrónico, montaje y programación de un robot limpiasuelos que se realizó en coordinación en un grupo de tres personas con elementos reciclados."
@@ -104,12 +92,10 @@ data = {
     }
   },
   "english": {
-    "subtitle": "Degree in Electronics Engineer",
-    "benefits": "Hiring benefits",
-    "benefitsText": "I benefit from the plan called <a href=\"http://www.empleo.gob.es/ficheros/garantiajuvenil/documentos/Folleto_Nuevos_Incentivos.pdf\">“Sistema Nacional de Garantía Juvenil”</a> and <a href=\"http://www.empleoygarantiajuvenil.es/empresa\">“Programa Integral de cualificación y empleo”</a> thanks to which hiring me counts with several economics and tax reductions.",
+    "subtitle": "(Web || Frontend || JavaScript) Developer",
     "goals": "Goals",
-    "goalsText": "My short-term goal is getting high quality experience meanwhile I improve my formation and implement new technologies and proceses in the daily work.",
-    "linkDownload": "<a href=\"pdf/Vicente_Ortiz_CV.pdf\"><i class=\"fa fa-download\"></i> Download PDF</a>",
+    "goalsText": "My daily concerns are oriented towards frontend technologies. I am always looking for improvement and efficiency both technically and professionally. I am also interested in other areas such as Backend, DevOps, Machine Learning and team management.",
+    "linkDownload": "<a href=\"pdf/Vicente_Ortiz_CV_en.pdf\"><i class=\"fa fa-download\"></i> Download PDF</a>",
 
     "education": {
       "title": "Education",
@@ -125,9 +111,6 @@ data = {
       }, {
         "item": "English",
         "level": "B2, Cambridge First (FCE)"
-      }, {
-        "item": "French",
-        "level": "A1"
       }]
     },
     "skills": {
@@ -135,26 +118,23 @@ data = {
       "pro": {
         "title": "Proffesionals",
         "list": [{
-          "item": "C/C++ (Microcontrollers)",
-          "level": "70"
+          "item": "Javascript/Node",
+          "level": "95"
         }, {
-          "item": "HTML/CSS",
-          "level": "50"
-        }, {
-          "item": "Javascript",
-          "level": "60"
-        }, {
-          "item": "Android",
-          "level": "30"
-        }, {
-          "item": "Robotics",
-          "level": "70"
-        }, {
-          "item": "Arduino",
+          "item": "Angular/Typescript",
           "level": "90"
         }, {
-          "item": "Raspberry Pi",
-          "level": "60"
+          "item": "HTML/CSS",
+          "level": "70"
+        }, {
+          "item": "React",
+          "level": "45"
+        }, {
+          "item": "angular js",
+          "level": "50"
+        }, {
+          "item": "Java",
+          "level": "40"
         }]
       },
       "complementary": {
@@ -165,7 +145,7 @@ data = {
           "images/logos/latex.png",
           "images/logos/processing.png",
           "images/logos/qt.png",
-          "images/logos/github.png",
+          "images/logos/git.png",
           "images/logos/gulp.png",
           "images/logos/sass.png"
         ]
@@ -175,8 +155,12 @@ data = {
       "title": "Experience and volunteering",
       "list": [{
         "title": "Developer at <a href=\"http://www.everis.com/global/en-US/home/Paginas/home.aspx\" target=\"_new\">Everis</a>",
+        "date": "Juny 2016 - Nowadays",
+        "text": "I have worked on several projects, both for end customers and internal tools, in which I have used jQuery, angular, java, REST architecture, Spring, MySQL, MongoDB and git among others. Also the whole Atlassian suite for agile management and methodologies. During this time I have managed to progress from junior to mentor while considered an expert in my field and a reference in the center of Alicante, with more than a thousand employees."
+      },{
+        "title": "Volunteering at <a href=\"http://www.everis.com/global/en-US/home/Paginas/home.aspx\" target=\"_new\">Everis</a>",
         "date": "July 2016 - Nowadays",
-        "text": "Full stack developer using technologies such as Java, Spring and Apache Tiles in Alicante(Spain)."
+        "text": "I have been an altruistic member of the organization in Alicante of several events such as <a href=\"https://www.womentechmakers.com/\" target=\"_new\">Women Tech Makers</a> or <a href=\"https://hashcode.withgoogle.com/\" target=\"_new\">Hash Code</a>, both planned by Google or <a href=\"https://2018.spaceappschallenge.org/\" target=\"_new\">Space Apps Challenge</a> convoked by NASA. At the same time I work on side projects, personal and with other colleagues, exploring other technologies such as Amazon Web Services or Docker."
       },{
         "title": "<a href=\"http://qubic.es\" target=\"_new\">Qubic</a>",
         "date": "2012 - 2017",
@@ -189,14 +173,6 @@ data = {
         "title": "Volunteer in <a href=\"http://www.forousa.es\" target=\"_new\">Foro USAES</a> several editions",
         "date": "2013 - 2015",
         "text": "Organizing logistic task of this event celebrated in some spanish universities such as: Albacete, Leon, Valencia and Castellon. It consists of a whole day with speeches from students with important scholarships in USA with coffee breaks for speakers and assistants."
-      }, {
-        "title": "Volunteer in <a href=\"http://www.campus-party.org\" target=\"_new\">Campus Party</a>",
-        "date": "September 2013",
-        "text": "Volunteer in London's edition organizing workshops during seven days as well as giving technical support."
-      }, {
-        "title": "3D printing and home automation course",
-        "date": "April 2016",
-        "text": "60h. course in which I learnt home automation concepts and ways to implement it. I also built a Prusa 3D printer and tested it."
       }, {
         "title": "<a href=\"http://limpiosity.qubic.es\" target=\"_new\">Limpiosity</a> robot",
         "date": "October - December 2013",

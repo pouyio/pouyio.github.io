@@ -52,8 +52,6 @@
       var translatedStrings = data[language];
       // =============MAIN=============
       this.$mainSubtitle.text(translatedStrings.subtitle);
-      this.$mainBenefits.text(translatedStrings.benefits);
-      this.$mainBenefitsText.html(translatedStrings.benefitsText);
       this.$mainGoals.text(translatedStrings.goals);
       this.$mainGoalsText.text(translatedStrings.goalsText);
       this.$downloadLink.html(translatedStrings.linkDownload);
