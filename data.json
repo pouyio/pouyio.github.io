@@ -61,8 +61,12 @@ data = {
     "experiences": {
       "title": "Experiencia y voluntariado",
       "list": [{
+        "title": "Desarrollador fullstack en <a href=\"https://www.lansweeper.com/\" target=\"_new\">Lansweeper</a>",
+        "date": "Julio 2019 - Actualidad",
+        "text": "En esta aventura formo parte del equipo encargado de crear una solución SaaS para la gestión de inventario en el mundo IT. El software es desarrollado con React para el front, microservicios en node para los diferentes backends, graphQL y gRPC para la conexión de estos y kubernetes para la infraestructura. Todo ello con salpicado de CI/CD con github, circle y sonar."
+      },{
         "title": "Desarrollador en <a href=\"http://www.everis.com/global/en-US/home/Paginas/home.aspx\" target=\"_new\">Everis</a>",
-        "date": "Julio 2016 - Actualidad",
+        "date": "Julio 2016 - Julio 2019",
         "text": "He trabajado en varios proyectos, tanto para clientes finales como herramientas internas, en los cuales he usado jQuery, angular, java, arquitectura REST, Spring, MySQL, MongoDB y git entre otros. También toda la suite de Atlassian para la gestión y metodologías ágiles. Durante este tiempo he conseguido avanzar desde junior a ser mentor y considerado experto en mi ámbito y referente en el centro de Alicante, con más de mil empleados."
       },{
         "title": "Voluntario en <a href=\"http://www.everis.com/global/en-US/home/Paginas/home.aspx\" target=\"_new\">Everis</a>",
