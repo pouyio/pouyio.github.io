@@ -63,14 +63,14 @@ data = {
       "list": [{
         "title": "Desarrollador fullstack en <a href=\"https://www.lansweeper.com/\" target=\"_new\">Lansweeper</a>",
         "date": "Julio 2019 - Actualidad",
-        "text": "En esta aventura formo parte del equipo encargado de crear una solución SaaS para la gestión de inventario en el mundo IT. El software es desarrollado con React para el front, microservicios en node para los diferentes backends, graphQL y gRPC para la conexión de estos y kubernetes para la infraestructura. Todo ello con salpicado de CI/CD con github, circle y sonar."
+        "text": "En esta aventura formo parte del equipo encargado de crear una solución SaaS para la gestión de inventario en el mundo IT. El software es desarrollado con React para el front, microservicios en node para los diferentes backends, graphQL, gRPC y kafka para la conexión de estos y kubernetes para la infraestructura. Todo ello con salpicado de CI/CD con github, circle y sonar."
       },{
         "title": "Desarrollador en <a href=\"http://www.everis.com/global/en-US/home/Paginas/home.aspx\" target=\"_new\">Everis</a>",
         "date": "Julio 2016 - Julio 2019",
         "text": "He trabajado en varios proyectos, tanto para clientes finales como herramientas internas, en los cuales he usado jQuery, angular, java, arquitectura REST, Spring, MySQL, MongoDB y git entre otros. También toda la suite de Atlassian para la gestión y metodologías ágiles. Durante este tiempo he conseguido avanzar desde junior a ser mentor y considerado experto en mi ámbito y referente en el centro de Alicante, con más de mil empleados."
       },{
         "title": "Voluntario en <a href=\"http://www.everis.com/global/en-US/home/Paginas/home.aspx\" target=\"_new\">Everis</a>",
-        "date": "Junio 2016 - Actualidad",
+        "date": "Junio 2016 - Julio 2019",
         "text": "He sido integrante de forma altruista de la organización en Alicante de varios eventos como son <a href=\"https://www.womentechmakers.com/\" target=\"_new\">Women Tech Makers</a> o <a href=\"https://hashcode.withgoogle.com/\" target=\"_new\">Hash Code</a>, ambos ideados por Google o <a href=\"https://2018.spaceappschallenge.org/\" target=\"_new\">Space Apps Challenge</a> convocado por la NASA. A su vez trabajo en proyectos laterales, personales y con otros compañeros, explorando otras tecnologías como Amazon Web Services o Docker."
       },{
         "title": "<a href=\"http://qubic.es\" target=\"_new\">Qubic</a>",
@@ -158,12 +158,16 @@ data = {
     "experiences": {
       "title": "Experience and volunteering",
       "list": [{
+        "title": "Fullstack developer atn <a href=\"https://www.lansweeper.com/\" target=\"_new\">Lansweeper</a>",
+        "date": "July 2019 - Nowadays",
+        "text": "In this adventure I take part in the team in charge of creating an IT assets management SaaS solution. This software is developed with React on the front, node microservices on the back, graphQL, gRPC and kafka for the communication and kubernetes for infraestructure. All of this stick together with CI/CD on github, circle and sonar."
+      },{
         "title": "Developer at <a href=\"http://www.everis.com/global/en-US/home/Paginas/home.aspx\" target=\"_new\">Everis</a>",
-        "date": "Juny 2016 - Nowadays",
+        "date": "Juny 2016 - July 2019",
         "text": "I have worked on several projects, both for end customers and internal tools, in which I have used jQuery, angular, java, REST architecture, Spring, MySQL, MongoDB and git among others. Also the whole Atlassian suite for agile management and methodologies. During this time I have managed to progress from junior to mentor while considered an expert in my field and a reference in the center of Alicante, with more than a thousand employees."
       },{
         "title": "Volunteering at <a href=\"http://www.everis.com/global/en-US/home/Paginas/home.aspx\" target=\"_new\">Everis</a>",
-        "date": "July 2016 - Nowadays",
+        "date": "July 2016 - July 2019",
         "text": "I have been an altruistic member of the organization in Alicante of several events such as <a href=\"https://www.womentechmakers.com/\" target=\"_new\">Women Tech Makers</a> or <a href=\"https://hashcode.withgoogle.com/\" target=\"_new\">Hash Code</a>, both planned by Google or <a href=\"https://2018.spaceappschallenge.org/\" target=\"_new\">Space Apps Challenge</a> convoked by NASA. At the same time I work on side projects, personal and with other colleagues, exploring other technologies such as Amazon Web Services or Docker."
       },{
         "title": "<a href=\"http://qubic.es\" target=\"_new\">Qubic</a>",
