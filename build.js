@@ -38,7 +38,7 @@ const singlePlaceholders = (language) => (placeholder) => {
 
 ["es", "en"].forEach((language) => {
   fs.writeFileSync(
-    `docs/${language}.html`,
+    `${language}.html`,
     html
       .replace(
         /{{#each\s(\S+)\s}}\n([\S\s]+?(?<=\n)).*{{\/each}}/gm,

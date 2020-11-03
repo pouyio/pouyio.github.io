@@ -2,3 +2,6 @@
 /.parcel-cache
 /.cache
 /.cache-parcel
+dist
+en.html
+es.html
