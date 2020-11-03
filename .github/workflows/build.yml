@@ -1,0 +1,30 @@
+name: Build
+
+push:
+  branches:
+    - v2
+
+jobs:
+  build:
+    name: Build pdfs and compile html
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14
+      - run: npm run install
+      - run: npm run build
+      - name: Commit files
+        run: |
+          git add dist
+          git commit -m "Build html" -a
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: gh-pages

@@ -1,195 +1,177 @@
-data = {
-  "spanish": {
-    "subtitle": "Desarrollador (Web || Frontend || JavaScript)",
-    "goals": "Objetivos",
-    "goalsText": "Mis inquietudes diarias están orientadas a las tecnologías frontend. Siempre busco la mejora y eficiencia tanto técnica como profesionalmente. También me interesan otros ámbitos como Backend, DevOps, Machine Learning y gestión de equipos.",
-    "linkDownload": "<a href=\"pdf/Vicente_Ortiz_CV.pdf\"><i class=\"fa fa-download\"></i> Descargar como PDF</a>",
+{
+  "es": {
+    "translate": {
+      "current": "es",
+      "to": "en"
+    },
+    "position": "Desarrollador (Web || JavaScript)",
+    "goals": "Soy un programador con +<script type=\"text/javascript\">document.write(Math.floor((new Date() - new Date('06-01-2016') )/ (1000 * 60 * 60 * 24 * 365)))</script> años de experiencia. Comencé mi carrera profesional especializándome en frontend y es el ámbito que me apasiona. Pero en mi evolución busco la versatilidad y por eso amplío mis conocimientos trabajando como fullstack diariamente participando en las decisiones y soluciones de todo el proceso de desarrollo. Me considero resolutivo, autónomo y proactivo a la vez que jugador de equipo y colaborador. A lo largo de este tiempo he tenido la suerte de rodearme de los mejores gracias a lo cual he podido desarrollarme constantemente no sólo en la oficina si no fuera de ella con algún proyecto personal siempre entre manos.",
     "education": {
       "title": "Educación",
-      "degree": "Grado Ing. Industrial Electrónica",
+      "degree": "Ingeniería Industrial Electrónica",
       "location": "Univ. Castilla la Mancha",
-      "date": "2010 - 2015"
+      "date": "2015"
     },
     "languages": {
       "title": "Idiomas",
-      "list": [{
-        "item": "Español",
-        "level": "Nativo"
-      }, {
-        "item": "Inglés",
-        "level": "B2, Cambridge First (FCE)"
-      }]
+      "list": [
+        {
+          "item": "Español",
+          "level": "Nativo"
+        },
+        {
+          "item": "Inglés",
+          "level": "B2, Cambridge First (FCE)"
+        }
+      ]
     },
     "skills": {
-      "title": "Competencias",
+      "title": "Habilidades",
       "pro": {
-        "title": "Profesionales",
-        "list": [{
-          "item": "Javascript/Node",
-          "level": "95"
-        }, {
-          "item": "Angular/Typescript",
-          "level": "90"
-        }, {
-          "item": "HTML/CSS",
-          "level": "70"
-        }, {
-          "item": "React",
-          "level": "90"
-        }, {
-          "item": "angular js",
-          "level": "50"
-        }, {
-          "item": "Java",
-          "level": "40"
-        }]
+        "title": "Técnicas",
+        "list": [
+          {
+            "item": "Javascript/Typescript/Node"
+          },
+          {
+            "item": "React/Angular"
+          },
+          {
+            "item": "HTML/CSS/SCSS"
+          },
+          {
+            "item": "REST/GraphQL"
+          },
+          {
+            "item": "MongoDB/SQL"
+          },
+          {
+            "item": "Git"
+          }
+        ]
       },
       "complementary": {
-        "title": "Complementarias",
-        "list": ["images/logos/apple.png",
-          "images/logos/linux.png",
-          "images/logos/windows.png",
-          "images/logos/latex.png",
-          "images/logos/processing.png",
-          "images/logos/qt.png",
-          "images/logos/git.png",
-          "images/logos/gulp.png",
-          "images/logos/sass.png"
+        "title": "Soft",
+        "list": [
+          { "item": "Metodologías ágiles" },
+          { "item": "Trabajo en equipo" }
         ]
       }
     },
     "experiences": {
-      "title": "Experiencia y voluntariado",
-      "list": [{
-        "title": "Desarrollador fullstack en <a href=\"https://www.lansweeper.com/\" target=\"_new\">Lansweeper</a>",
-        "date": "Julio 2019 - Actualidad",
-        "text": "En esta aventura formo parte del equipo encargado de crear una solución SaaS para la gestión de inventario en el mundo IT. El software es desarrollado con React para el front, microservicios en node para los diferentes backends, graphQL, gRPC y kafka para la conexión de estos y kubernetes para la infraestructura. Todo ello con salpicado de CI/CD con github, circle y sonar."
-      },{
-        "title": "Desarrollador en <a href=\"http://www.everis.com/global/en-US/home/Paginas/home.aspx\" target=\"_new\">Everis</a>",
-        "date": "Julio 2016 - Julio 2019",
-        "text": "He trabajado en varios proyectos, tanto para clientes finales como herramientas internas, en los cuales he usado jQuery, angular, java, arquitectura REST, Spring, MySQL, MongoDB y git entre otros. También toda la suite de Atlassian para la gestión y metodologías ágiles. Durante este tiempo he conseguido avanzar desde junior a ser mentor y considerado experto en mi ámbito y referente en el centro de Alicante, con más de mil empleados."
-      },{
-        "title": "Voluntario en <a href=\"http://www.everis.com/global/en-US/home/Paginas/home.aspx\" target=\"_new\">Everis</a>",
-        "date": "Junio 2016 - Julio 2019",
-        "text": "He sido integrante de forma altruista de la organización en Alicante de varios eventos como son <a href=\"https://www.womentechmakers.com/\" target=\"_new\">Women Tech Makers</a> o <a href=\"https://hashcode.withgoogle.com/\" target=\"_new\">Hash Code</a>, ambos ideados por Google o <a href=\"https://2018.spaceappschallenge.org/\" target=\"_new\">Space Apps Challenge</a> convocado por la NASA. A su vez trabajo en proyectos laterales, personales y con otros compañeros, explorando otras tecnologías como Amazon Web Services o Docker."
-      },{
-        "title": "<a href=\"http://qubic.es\" target=\"_new\">Qubic</a>",
-        "date": "2012 - 2017",
-        "text": "Miembro senior de esta asociación de estudiantes dedicada a impartir exposiciones técnicas, organizar eventos en universidades de España y realizar proyectos de ingeniería."
-      }, {
-        "title": "Prácticas en empresa <a href=\"http://www.i3a.uclm.es/site/index.php\" target=\"_new\"> I3A</a>",
-        "date": "Junio - Septiembre 2014",
-        "text": "Realización de un sistema de iluminación inteligente, embarcado en el proyecto INT3-Horus. Realicé investigación de mercado, análisis, diseño, construcción y programación de la solución óptima, ensayos y exposición de conclusiones."
-      }, {
-        "title": "Voluntario <a href=\"http://www.forousa.es\" target=\"_new\">Foro USAES</a> varias ediciones",
-        "date": "2013 - 2015",
-        "text": "Organización y logística de este evento realizado en distintas universidades de España: Albacete, León, Valencia y Castellón. Jornada con ponencias de estudiantes becados en EEUU intercalando coffee breaks con los asistentes."
-      }, {
-        "title": "Robot <a href=\"http://limpiosity.qubic.es\" target=\"_new\">Limpiosity</a>",
-        "date": "Octubre - Diciembre 2013",
-        "text": "Diseño electrónico, montaje y programación de un robot limpiasuelos que se realizó en coordinación en un grupo de tres personas con elementos reciclados."
-      }, {
-        "title": "Participante <a href=\"http://yuzz.org.es\" target=\"_new\">Yuzz</a>",
-        "date": "Octubre 2012 - Mayo 2013",
-        "text": "Seleccionado y participante en este programa para emprendedores diseñando un proyecto de empresa sobre robots didácticos para jóvenes."
-      }]
+      "title": "Experiencia",
+      "list": [
+        {
+          "title": "Desarrollador fullstack en <a href=\"https://www.lansweeper.com/\" target=\"_new\">Lansweeper</a>",
+          "date": "Julio 2019 - Actualidad",
+          "text": "En esta aventura formo parte del equipo encargado de crear una solución cloud SaaS para la gestión de inventario en el mundo IT. El software es desarrollado con React para el front; microservicios en node para los diferentes backends; graphQL, gRPC y kafka para las communicaciones y kubernetes para la infraestructura. Todo ello con CI/CD, github y tests. En esta etapa me encuentro con retos nuevos como orientar todo el desarrollo al rendimiento y la escalabilidad, realizar pruebas de concepto de forma muy ágil y trabajar y comunicarme con equipos alrededor de todo el mundo."
+        },
+        {
+          "title": "Desarrollador fullstack en <a href=\"http://www.everis.com/global/en-US/home/Paginas/home.aspx\" target=\"_new\">Everis</a>",
+          "date": "Julio 2016 - Julio 2019",
+          "text": "He trabajado tanto para clientes externos como en proyectos internos, en los cuales he usado jQuery, Angular, Java, Spring, arquitecturas REST, MySQL, MongoDB, git y suite Atlassian entre otros. <ul><li>Promocioné de categoría en menos de un año mientras trabajaba en un proyecto para una aseguradora nacional.</li><li>Estuve en contacto directo y continuo con el cliente y adaptando los cambios y necesidades al desarrollo.</li><li>Gestioné varios servicios y herramientas internas usadas por la compañía en todo el mundo dando soporte, resolviendo incidencias y haciendo desarrollos nuevos.</li><li>Me desarrollé como formador acogiendo a compañeros nuevos e impartiendo charlas y cursos al resto de empleados en nuevas tecnologías.</li></ul>"
+        }
+      ]
+    },
+    "volunteering": {
+      "title": "Voluntariado",
+      "list": [
+        {
+          "title": "Voluntario en <a href=\"http://www.everis.com/global/en-US/home/Paginas/home.aspx\" target=\"_new\">Everis</a>",
+          "date": "Junio 2016 - Julio 2019",
+          "text": "He sido integrante de la organización en Alicante de varios eventos como son <a href=\"https://www.womentechmakers.com/\" target=\"_new\">Women Tech Makers</a> o <a href=\"https://hashcode.withgoogle.com/\" target=\"_new\">Hash Code</a>, ambos ideados por Google o <a href=\"https://2018.spaceappschallenge.org/\" target=\"_new\">Space Apps Challenge</a> convocado por la NASA. Todos ellos siendo éxitos de asistencia y organización. A su vez trabajé en proyectos personales y con otros compañeros, desarrollando ideas propias y  aplicando otras tecnologías ajenas a nuestro día a día con el fin de aprender y descubrir, todas ellas enfocadas al desarrollo web."
+        },
+        {
+          "title": "<a href=\"http://qubic.es\" target=\"_new\">Qubic</a>",
+          "date": "2012 - 2017",
+          "text": "Miembro senior de una asociación de estudiantes dedicada a impartir exposiciones técnicas, organizar eventos en universidades de España y realizar proyectos de ingeniería."
+        }
+      ]
     }
   },
-  "english": {
-    "subtitle": "(Web || Frontend || JavaScript) Developer",
-    "goals": "Goals",
-    "goalsText": "My daily concerns are oriented towards frontend technologies. I am always looking for improvement and efficiency both technically and professionally. I am also interested in other areas such as Backend, DevOps, Machine Learning and team management.",
-    "linkDownload": "<a href=\"pdf/Vicente_Ortiz_CV_en.pdf\"><i class=\"fa fa-download\"></i> Download PDF</a>",
+  "en": {
+    "translate": {
+       "current": "en",
+      "to": "es"
+    },
+    "position": "(Web || JavaScript) Developer",
+    "goals": "I am a +<script type=\"text/javascript\">document.write(Math.floor((new Date() - new Date('06-01-2016') )/ (1000 * 60 * 60 * 24 * 365)))</script> years of experience developer. I started my professional career specialized in fronted and that is the realm that I am passionate about.But trying to be more versatile, I am evolving widen my knowledge working as a fullstack developer daily taking part in the decision process and searching for solutions in the whole development process. I consider myself an autonomous, problem solver and proactive person while also being a team player and collaborative. All along this time I have been lucky enough to be surrounded by great people from whom I have learned a lot and developed my skills not only in the workplace but also with some side projects.",
 
     "education": {
       "title": "Education",
-      "degree": "Electronics Engineering degree",
+      "degree": "Electronics Engineering",
       "location": "University of Castilla La Mancha",
-      "date": "2010 - 2015"
+      "date": "2015"
     },
     "languages": {
       "title": "Languages",
-      "list": [{
-        "item": "Spanish",
-        "level": "Native"
-      }, {
-        "item": "English",
-        "level": "B2, Cambridge First (FCE)"
-      }]
+      "list": [
+        {
+          "item": "Spanish",
+          "level": "Native"
+        },
+        {
+          "item": "English",
+          "level": "B2, Cambridge First (FCE)"
+        }
+      ]
     },
     "skills": {
-      "title": "Competences",
+      "title": "Skills",
       "pro": {
-        "title": "Proffesionals",
-        "list": [{
-          "item": "Javascript/Node",
-          "level": "95"
-        }, {
-          "item": "Angular/Typescript",
-          "level": "90"
-        }, {
-          "item": "HTML/CSS",
-          "level": "70"
-        }, {
-          "item": "React",
-          "level": "45"
-        }, {
-          "item": "angular js",
-          "level": "50"
-        }, {
-          "item": "Java",
-          "level": "40"
-        }]
+        "title": "Technical",
+        "list": [
+          {
+            "item": "Javascript/Typescript/Node"
+          },
+          {
+            "item": "React/Angular"
+          },
+          {
+            "item": "HTML/CSS"
+          },
+          {
+            "item": "REST/GraphQL"
+          },
+          {
+            "item": "MongoDB/SQL"
+          }
+        ]
       },
       "complementary": {
-        "title": "Complementary",
-        "list": ["images/logos/apple.png",
-          "images/logos/linux.png",
-          "images/logos/windows.png",
-          "images/logos/latex.png",
-          "images/logos/processing.png",
-          "images/logos/qt.png",
-          "images/logos/git.png",
-          "images/logos/gulp.png",
-          "images/logos/sass.png"
-        ]
+        "title": "Soft",
+        "list": [{ "item": "Agile methodologies" }, { "item": "Teamwork" }]
       }
     },
     "experiences": {
-      "title": "Experience and volunteering",
-      "list": [{
-        "title": "Fullstack developer atn <a href=\"https://www.lansweeper.com/\" target=\"_new\">Lansweeper</a>",
-        "date": "July 2019 - Nowadays",
-        "text": "In this adventure I take part in the team in charge of creating an IT assets management SaaS solution. This software is developed with React on the front, node microservices on the back, graphQL, gRPC and kafka for the communication and kubernetes for infraestructure. All of this stick together with CI/CD on github, circle and sonar."
-      },{
-        "title": "Developer at <a href=\"http://www.everis.com/global/en-US/home/Paginas/home.aspx\" target=\"_new\">Everis</a>",
-        "date": "Juny 2016 - July 2019",
-        "text": "I have worked on several projects, both for end customers and internal tools, in which I have used jQuery, angular, java, REST architecture, Spring, MySQL, MongoDB and git among others. Also the whole Atlassian suite for agile management and methodologies. During this time I have managed to progress from junior to mentor while considered an expert in my field and a reference in the center of Alicante, with more than a thousand employees."
-      },{
-        "title": "Volunteering at <a href=\"http://www.everis.com/global/en-US/home/Paginas/home.aspx\" target=\"_new\">Everis</a>",
-        "date": "July 2016 - July 2019",
-        "text": "I have been an altruistic member of the organization in Alicante of several events such as <a href=\"https://www.womentechmakers.com/\" target=\"_new\">Women Tech Makers</a> or <a href=\"https://hashcode.withgoogle.com/\" target=\"_new\">Hash Code</a>, both planned by Google or <a href=\"https://2018.spaceappschallenge.org/\" target=\"_new\">Space Apps Challenge</a> convoked by NASA. At the same time I work on side projects, personal and with other colleagues, exploring other technologies such as Amazon Web Services or Docker."
-      },{
-        "title": "<a href=\"http://qubic.es\" target=\"_new\">Qubic</a>",
-        "date": "2012 - 2017",
-        "text": "Senior member of this student assosiaction dedicated to organize workshops and technical expositions, organize events in spanish univeersities and build engineering projects."
-      }, {
-        "title": "Internship in <a href=\"http://www.i3a.uclm.es/site/index.php\" target=\"_new\"> I3A</a>",
-        "date": "June - September 2014",
-        "text": "Building of an intelligent lighting system embebd in INT3-Horus project. I made a market research, analysis, design and construction and programming of the optimal solution, tests and showing the results."
-      }, {
-        "title": "Volunteer in <a href=\"http://www.forousa.es\" target=\"_new\">Foro USAES</a> several editions",
-        "date": "2013 - 2015",
-        "text": "Organizing logistic task of this event celebrated in some spanish universities such as: Albacete, Leon, Valencia and Castellon. It consists of a whole day with speeches from students with important scholarships in USA with coffee breaks for speakers and assistants."
-      }, {
-        "title": "<a href=\"http://limpiosity.qubic.es\" target=\"_new\">Limpiosity</a> robot",
-        "date": "October - December 2013",
-        "text": "Electronic design, build and programming of an autonomous robotic vacuum cleaner made of recycled parts in a group of three students."
-      }, {
-        "title": "<a href=\"http://yuzz.org.es\" target=\"_new\">Yuzz</a> competitor",
-        "date": "October 2012 - May 2013",
-        "text": "Elected in a process selection to compete in a national entrepreneurs contest designing a business project about robotic toys for learning purposes."
-      }]
+      "title": "Experience",
+      "list": [
+        {
+          "title": "Fullstack developer at <a href=\"https://www.lansweeper.com/\" target=\"_new\">Lansweeper</a>",
+          "date": "July 2019 - Nowadays",
+          "text": "In this adventure I take part in the team in charge of creating an IT assets management SaaS solution. This software is developed with React on the front; node microservices on the backends; graphQL, gRPC and kafka for communication and kubernetes for infraestructure. All of this stick together with CI/CD on github and tests. In this position I find new challenges everyday like focusing on performance and scalability when coding, creating POCs quickly and working with distributed teams across the globe."
+        },
+        {
+          "title": "Fullstack developer at <a href=\"http://www.everis.com/global/en-US/home/Paginas/home.aspx\" target=\"_new\">Everis</a>",
+          "date": "Juny 2016 - July 2019",
+          "text": "I have worked on several projects, both for external clients and internal tools, in which I have used jQuery, Angular, Java, Spring, REST architectures, MySQL, MongoDB, git and Atlassian suite among others. <ul><li>I promoted in less than a year while working for a national insurance company.</li><li>I was in constant communication with the client and adapting our solution to their needs.</li><li>I managed several services and tools used across the whole company all around the world, I supported users, solved tickets and developed new features.</li><li>I grew up as a mentor helping new colleagues and giving talks and workshops to the rest of the employees in the center about rising technologies.</li></ul>"
+        }
+      ]
+    },
+    "volunteering": {
+      "title": "Volunteering",
+      "list": [
+        {
+          "title": "Volunteering at <a href=\"http://www.everis.com/global/en-US/home/Paginas/home.aspx\" target=\"_new\">Everis</a>",
+          "date": "July 2016 - July 2019",
+          "text": "I have been an altruistic member of the organization in Alicante of several events such as <a href=\"https://www.womentechmakers.com/\" target=\"_new\">Women Tech Makers</a> or <a href=\"https://hashcode.withgoogle.com/\" target=\"_new\">Hash Code</a>, both planned by Google or <a href=\"https://2018.spaceappschallenge.org/\" target=\"_new\">Space Apps Challenge</a> convoked by NASA. At the same time I work on side projects, personal and with other colleagues, exploring other technologies such as Amazon Web Services or Docker."
+        },
+        {
+          "title": "<a href=\"http://qubic.es\" target=\"_new\">Qubic</a>",
+          "date": "2012 - 2017",
+          "text": "Senior member of this student assosiaction dedicated to organize workshops and technical expositions, organize events in spanish univeersities and build engineering projects."
+        }
+      ]
     }
   }
 }

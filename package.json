@@ -1,17 +1,20 @@
 {
   "name": "cv",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --watch index.html --watch data.json build.js & parcel ./es.html ./en.html --no-hmr",
+    "build": "npm run generate-pdf && node build.js && parcel build es.html --no-source-maps && parcel build en.html --no-source-maps",
+    "generate-pdf": "LANGUAGE=es node pdf.js && LANGUAGE=en node pdf.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.26.3",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^3.1.1"
+    "nodemon": "^2.0.5",
+    "parcel": "^2.0.0-nightly.425",
+    "parcel-bundler": "^1.12.4",
+    "puppeteer": "^5.3.1",
+    "sass": "^1.27.0"
   },
   "dependencies": {}
 }

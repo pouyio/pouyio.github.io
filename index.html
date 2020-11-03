@@ -1,122 +1,125 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-  <meta charset="utf-8">
-  <meta name="theme-color" content="#d2deed">
-  <title>Vicente Ortiz</title>
-  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1, user-scalable=0"/>
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="build/style.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-</head>
-
-<body>
-  <div id="cv-container" class="flex-container">
-    <!-- ===========================HEADER========================== -->
-    <div class="header">
-      <div class="header-main">
-        <h1 class="title" id="main-title">Vicente Ortiz García-Cervigón</h1>
-        <h2 id="main-subtitle" class="subtitle"> Graduado Ingeniería Industrial Electrónica y Automática</h2>
-        <hr>
-        <div class="header-container">
-          <div class="header-container sub">
-            <h2 id="main-goals" class="goals">Objetivos</h2>
-            <p id="main-goals-text" class="goals-text">
-              Mi objetivo a corto plazo sería obtener experiencia de calidad al mismo tiempo que mejoro mi formación e implemento las últimas tecnologías y procesos de desarrollo en el trabajo diario.
-            </p>
-          </div>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vicente Ortiz</title>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Commissioner">
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22256%22 height=%22256%22 viewBox=%220 0 100 100%22><text x=%2250%%22 y=%2250%%22 dominant-baseline=%22central%22 text-anchor=%22middle%22 font-size=%2280%22>🚀</text></svg>"
+    />
+    <link rel="stylesheet" href="./styles/reset.scss" />
+    <link rel="stylesheet" href="./styles/style.scss" />
+    <link rel="stylesheet" media="print" href="./styles/print.scss" />
+  </head>
+  <body>
+    <article class="container">
+      <!-- HEADER -->
+      <section class="header">
+        <div class="title">
+          <h1 class="name">Vicente Ortiz</h1>
+          <h2 class="position" id="position">${{ position }}</h2>
         </div>
-      </div>
-      <div class="header-links">
-        <img class="header-image" src="images/me.jpg" alt="icon" />
-        <ul>
-          <li><a href="tel:+34685429043"> <i class="fa fa-phone"></i> +34 685429043</a></li>
-          <li><a href="mailto:vicente.ogc@gmail.com" target="_top"><i class="fa fa-envelope"></i> vicente.ogc@gmail.com</a></li>
-          <!-- <li><a href="http://vicenteortiz.me/"><i class="fa fa-globe"></i> vicenteortiz.me</a></li> -->
-          <li><a href="https://github.com/pouyio"><i class="fa fa-github"></i> Github</a></li>
-          <li><a href="https://www.linkedin.com/in/vicenteogc"><i class="fa fa-linkedin"></i> LinkedIn</a></li>
-          <li id="download-link"></li>
-          <li>
-            <button class="spanish" value="spanish" id="es-button" type="button"><img class="flag" src="images/sp.png" alt="spanish flag" /> Español</button> /
-            <button class="english" value="english" id="en-button" type="button"><img class="flag" src="images/en.png" alt="british flag" /> English</button>
-          </li>
-        </ul>
-      </div>
-    </div>
-
-
-    <!-- ===========================EXPERIENCE========================== -->
-    <section id="experience" class="experience">
-      <h2 id="experience-title" class="section-title experience-title">Experiencia y voluntariado</h2>
-
-      <!-- <article class="work">
-        <h3 class="work-title"><a href="http://qubic.es" target="_blank">Qubic</a></h3><i class="work-date">2012 - Actualidad:</i>
-        <p class="work-text">
-          Miembro senior de esta asociación de estudiantes dedicada a impartir exposiciones técnicas, organizar eventos en universidades de España y realizar proyectos de ingeniería.
-        </p>
-      </article> -->
-    </section>
-
-
-    <!-- ===========================ABILITIES========================== -->
-    <section class="abilities">
-
-      <article class="education">
-        <h2 id="education-title" class="section-title education-title">Educación</h2>
-        <h3 id="uni-title" class="uni-title">Grado Ing. Industrial Electrónica</h3>
-        <p id="uni-location" class="uni-location">Univ. Castilla la Mancha</p>
-        <p id="uni-date" class="uni-date">2010 - 2015</p>
-      </article>
-
-      <article id="languages" class="languages">
-        <h2 id="languages-title" class="section-title languages-title">Idiomas</h2>
-        <ul>
-          <!-- <li><strong>Español - </strong> Nativo</li> -->
-        </ul>
-      </article>
-
-      <article id="skills" class="skills">
-        <h2 id="skills-title" class="section-title skills-title">Competencias</h2>
-        <h3 id="skills-pro">Profesionales</h3>
-        <ul>
-          <!-- <li>C/C++ (Microcontroladores)
-            <progress max="100" value="70"></progress>
-          </li> -->
-        </ul>
-        <h3 id="skills-compl">Complementarias</h3>
-        <div id="skills-table" class="table-container">
-          <img src="images/logos/apple.png" alt="apple logo" />
-          <img src="images/logos/linux.png" alt="linux logo" />
-          <img src="images/logos/windows.png" alt="windows logo" />
-          <img src="images/logos/git.png" alt="git logo" />
-          <img src="images/logos/atlassian.png" alt="atlassian logo" />
-          <img src="images/logos/sketch.png" alt="sketch logo" />
-          <!-- <img src="images/logos/sass.png" alt="sass logo" /> -->
+        <div class="links">
+          <ul>
+            <li class="no-print buttons">
+              <script>document.write('<a href="cv_vicente_ortiz_${{ translate.current }}.pdf">PDF</a>')</script>
+              <script>document.write('<a href="${{ translate.to }}.html">ES/EN</a>')</script>
+              <!-- <a href="cv_vicente_ortiz_${{ translate.current }}.pdf">PDF</a>
+              <a href="${{ translate.to }}.html">ES/EN</a> -->
+            </li>
+            <li>
+              <a href="mailto:vicente.ogc@gmail.com" target="_blank"
+                >vicente.ogc@gmail.com</a
+              >
+            </li>
+            <li>
+              <a href="https://github.com/pouyio" target="_blank">Github</a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/vicenteogc/" target="_blank"
+                >LinkedIn</a
+              >
+            </li>
+          </ul>
         </div>
-      </article>
-    </section>
+      </section>
 
+      <hr />
 
-    <!-- ===========================FOOTER========================== -->
-    <div class="footer">
-      <ul>
-        <li>Vicente Ortiz -
-          <script type="text/javascript">
-            now = new Date
-            theYear = now.getYear()
-            if (theYear < 1900)
-              theYear = theYear + 1900
-            document.write(theYear)
-          </script>
-        </li>
-      </ul>
-    </div>
-  </div>
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
-  <script type="text/javascript" src="data.json"></script>
-  <script src="http://cdn.jsdelivr.net/theaterjs/latest/theater.min.js"></script>
-  <script type="text/javascript" src="app.js"></script>
-</body>
+      <!-- INTRODUCTION -->
+      <section class="intro">
+        <img src="./img/me.jpg" alt="me" />
+        <p class="goals">${{ goals }}</p>
+      </section>
 
+      <hr />
+
+      <!-- BODY -->
+      <section class="main-content">
+        <div class="experiences">
+          <section>
+            <h1 class="title">${{ experiences.title }}</h1>
+            {{#each experiences.list }}
+            <div class="experience">
+              <div>
+                <h1 class="subtitle">${{ title }}</h1>
+                <h2>${{ date }}</h2>
+              </div>
+              <p>${{ text }}</p>
+            </div>
+            {{/each}}
+          </section>
+
+          <section>
+            <h1 class="title">${{ volunteering.title }}</h1>
+            {{#each volunteering.list }}
+            <div class="experience">
+              <div>
+                <h1 class="subtitle">${{ title }}</h1>
+                <h2>${{ date }}</h2>
+              </div>
+              <p>${{ text }}</p>
+            </div>
+            {{/each}}
+          </section>
+        </div>
+
+        <div class="side">
+          <section>
+            <h1 class="title">${{ skills.title }}</h1>
+            <h2 class="subtitle">${{ skills.pro.title }}</h2>
+            <ul>
+              {{#each skills.pro.list }}
+              <li>${{ item }}</li>
+              {{/each}}
+            </ul>
+
+            <h2 class="subtitle">${{ skills.complementary.title }}</h2>
+            <ul>
+              {{#each skills.complementary.list }}
+              <li>${{ item }}</li>
+              {{/each}}
+            </ul>
+          </section>
+          <section>
+            <h1 class="title">${{ languages.title }}</h1>
+            <ul>
+              {{#each languages.list }}
+              <li>${{ item }} - <span>${{ level }}</span></li>
+              {{/each}}
+            </ul>
+          </section>
+          <section class="education">
+            <h1 class="title">${{ education.title }}</h1>
+            <h2>${{ education.degree }}</h2>
+            <h3>${{ education.location }} - ${{ education.date }}</h3>
+          </section>
+        </div>
+      </section>
+    </article>
+  </body>
 </html>
