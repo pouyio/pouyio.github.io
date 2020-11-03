@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "start": "nodemon --watch index.html --watch data.json build.js & parcel ./es.html ./en.html --no-hmr",
-    "build": "LANGUAGE=es node pdf.js && LANGUAGE=en node pdf.js && node build.js && parcel build es.html --no-source-maps -d docs && parcel build en.html --no-source-maps -d docs && mv docs/es.html docs/index.html && cp CNAME docs/CNAME"
+    "build": "LANGUAGE=es node pdf.js && LANGUAGE=en node pdf.js && node build.js && parcel build es.html --no-source-maps -d docs && parcel build en.html --no-source-maps -d docs && mv docs/es.html docs/index.html"
   },
   "author": "",
   "license": "ISC",
