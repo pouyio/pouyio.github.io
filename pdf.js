@@ -23,7 +23,7 @@ const path = require("path");
     margin: { top: 0, right: 0, bottom: 0, left: 0 },
   });
   fs.writeFileSync(
-    `cv_vicente_ortiz_${process.env.LANGUAGE}.pdf`,
+    `docs/cv_vicente_ortiz_${process.env.LANGUAGE}.pdf`,
     buffer,
     "binary"
   );
