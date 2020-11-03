@@ -1,0 +1,251 @@
+:root {
+  --main-color: #6ca6cd;
+  --light-text-color: #767676;
+  font-size: 16px;
+}
+
+::selection {
+  color: white;
+  background: var(--main-color);
+}
+
+a {
+  transition: background-color 0.1s ease, color 0.1s ease;
+}
+
+html {
+  font-family: "Commissioner";
+  background: #f6f6f6;
+}
+
+body {
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+hr {
+  margin: 1rem 0;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+@mixin group-title {
+  color: var(--main-color);
+  padding-left: 1rem;
+  font-size: 1.125rem;
+  letter-spacing: 0.15rem;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  position: relative;
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 100%;
+    background: var(--main-color);
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
+
+a {
+  color: black;
+  &:hover {
+    color: var(--main-color);
+  }
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  > a {
+    background-color: var(--main-color);
+    color: white;
+    padding: 0 0.4rem;
+    border-radius: 100px;
+    text-decoration: none;
+    &:hover {
+      background-color: var(--light-text-color);
+    }
+  }
+}
+
+.container {
+  padding: 2rem;
+  margin: 3rem auto;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+  max-width: 1024px;
+  background-color: white;
+
+  .header {
+    display: flex;
+
+    .title {
+      flex: 1;
+      padding: 0 1rem;
+
+      .name {
+        font-size: 2.75rem;
+        font-weight: 900;
+        letter-spacing: 0.3rem;
+        color: var(--main-color);
+        text-transform: uppercase;
+      }
+      .position {
+        font-size: 1.25rem;
+        font-weight: 300;
+      }
+    }
+
+    .links {
+      padding: 0 1rem;
+      font-size: 0.75rem;
+      border-left: 1px solid rgba(0, 0, 0, 0.1);
+      display: flex;
+      align-items: center;
+      > ul > li {
+        margin-bottom: 0.3rem;
+      }
+    }
+  }
+
+  .intro {
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+    font-size: 0.875rem;
+    img {
+      max-width: 80px;
+      max-height: 80px;
+      border-radius: 100%;
+      margin-right: 3rem;
+    }
+
+    .goals {
+      flex: 1;
+    }
+  }
+
+  .main-content {
+    font-size: 0.875rem;
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    .subtitle {
+      font-size: 1rem;
+      font-weight: bold;
+    }
+
+    > .experiences {
+      padding: 0 3rem 0 1rem;
+      text-align: justify;
+
+      ul {
+        list-style: inherit;
+        padding-left: 1rem;
+      }
+
+      > section {
+        margin-bottom: 2rem;
+      }
+
+      .title {
+        @include group-title;
+      }
+
+      .experience {
+        div {
+          display: flex;
+          align-items: baseline;
+          justify-content: space-between;
+
+          h2 {
+            font-size: 0.75rem;
+            color: var(--light-text-color);
+          }
+        }
+        p {
+          margin-bottom: 1rem;
+        }
+      }
+    }
+
+    .side {
+      border-left: 1px solid rgba(0, 0, 0, 0.1);
+
+      ul {
+        > li {
+          margin-bottom: 0.5rem;
+        }
+      }
+      .title {
+        @include group-title;
+      }
+
+      > section {
+        padding: 0 1rem;
+        margin-bottom: 2rem;
+        white-space: nowrap;
+      }
+
+      .education {
+        h3 {
+          font-size: 0.75rem;
+          color: var(--light-text-color);
+        }
+      }
+    }
+  }
+}
+
+@media not print {
+  @media (max-width: 768px) {
+    :root {
+      font-size: 15px;
+    }
+    .container {
+      margin: 0;
+      padding: 1rem;
+
+      .header {
+        flex-direction: column;
+        .title {
+          text-align: center;
+        }
+        .links {
+          border-left: none;
+          margin-top: 1rem;
+          display: block;
+          > ul {
+            display: flex;
+            justify-content: space-between;
+          }
+        }
+      }
+
+      .intro {
+        img {
+          display: none;
+        }
+      }
+      .main-content {
+        flex-direction: column;
+
+        .experiences {
+          padding-right: 1rem;
+          .experience {
+            div {
+              flex-direction: column;
+            }
+          }
+        }
+        .side {
+          border-left: none;
+        }
+      }
+    }
+  }
+}

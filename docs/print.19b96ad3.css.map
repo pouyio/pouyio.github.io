@@ -1,0 +1,1 @@
+{"version":3,"sources":["styles/print.scss"],"names":[],"mappings":"AAAA;EACE;;;AAGF;EACE;EACA;;;AAGF;EACE;;;AAGF;EACE","file":"print.19b96ad3.css","sourceRoot":"..","sourcesContent":[":root {\n  font-size: 14px;\n}\n\n.container {\n  margin: 0;\n  box-shadow: none;\n}\n\nhtml {\n  background: white;\n}\n\n.no-print {\n  display: none;\n}\n"]}
