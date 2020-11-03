@@ -22,6 +22,8 @@ jobs:
       - run: npm run build
       - name: Commit files
         run: |
+          git config --local user.email "pouyio@gmail.com"
+          git config --local user.name "pouyio"
           git add dist
           git commit -m "Build html" -a
       - name: Push changes
