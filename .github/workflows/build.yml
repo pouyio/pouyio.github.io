@@ -24,7 +24,7 @@ jobs:
         run: |
           git config --local user.email "pouyio@gmail.com"
           git config --local user.name "pouyio"
-          git add dist
+          git add docs
           git commit -m "Build html" -a
       - name: Push changes
         uses: ad-m/github-push-action@master

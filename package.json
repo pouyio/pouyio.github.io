@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "start": "nodemon --watch index.html --watch data.json build.js & parcel ./es.html ./en.html --no-hmr",
-    "build": "npm run generate-pdf && node build.js && parcel build es.html --no-source-maps && parcel build en.html --no-source-maps",
+    "build": "npm run generate-pdf && node build.js && parcel build es.html --no-source-maps -d docs && parcel build en.html --no-source-maps -d docs",
     "generate-pdf": "LANGUAGE=es node pdf.js && LANGUAGE=en node pdf.js"
   },
   "author": "",

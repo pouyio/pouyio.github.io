@@ -4,7 +4,9 @@ const Bundler = require("parcel-bundler");
 const path = require("path");
 
 (async () => {
-  const bundler = new Bundler(path.join(__dirname, "./index.html"));
+  const bundler = new Bundler(path.join(__dirname, "./index.html"), {
+    outDir: "docs",
+  });
   const parcelServer = await bundler.serve();
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
