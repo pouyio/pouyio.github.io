@@ -167,8 +167,9 @@ a {
             color: var(--light-text-color);
           }
         }
-        p {
+        span {
           margin-bottom: 1rem;
+          display: block;
         }
       }
     }

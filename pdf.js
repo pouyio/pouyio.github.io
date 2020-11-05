@@ -11,9 +11,14 @@ const path = require("path");
 
   console.log(`${process.env.LANGUAGE} language process start`);
 
-  await page.goto(`http://localhost:1234/${process.env.LANGUAGE}.html`, {
-    waitUntil: "networkidle0",
-  });
+  await page.goto(
+    `http://localhost:${parcelServer.address().port}/${
+      process.env.LANGUAGE
+    }.html`,
+    {
+      waitUntil: "networkidle0",
+    }
+  );
   await page.evaluateHandle("document.fonts.ready");
   const buffer = await page.pdf({
     format: "A4",

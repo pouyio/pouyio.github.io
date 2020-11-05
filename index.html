@@ -36,8 +36,6 @@
               <script>
                 document.write('<a href="${{ translate.to }}.html">ES/EN</a>');
               </script>
-              <!-- <a href="cv_vicente_ortiz_${{ translate.current }}.pdf">PDF</a>
-              <a href="${{ translate.to }}.html">ES/EN</a> -->
             </li>
             <li>
               <a href="mailto:vicente.ogc@gmail.com" target="_blank"
@@ -77,7 +75,7 @@
                 <h1 class="subtitle">${{ title }}</h1>
                 <h2>${{ date }}</h2>
               </div>
-              <p>${{ text }}</p>
+              <span>${{ text }}</span>
             </div>
             {{/each}}
           </section>
@@ -90,7 +88,7 @@
                 <h1 class="subtitle">${{ title }}</h1>
                 <h2>${{ date }}</h2>
               </div>
-              <p>${{ text }}</p>
+              <span>${{ text }}</span>
             </div>
             {{/each}}
           </section>
