@@ -5,7 +5,7 @@
       "to": "en"
     },
     "position": "Desarrollador (Web || JavaScript)",
-    "goals": "Soy un programador con +<script type=\"application/javascript\">document.write(Math.floor((new Date() - new Date('06-01-2016') )/ (1000 * 60 * 60 * 24 * 365)))</script> años de experiencia. Comencé mi carrera profesional especializándome en frontend y es el ámbito que me apasiona. Pero en mi evolución busco la versatilidad y por eso amplío mis conocimientos trabajando como fullstack diariamente participando en las decisiones y soluciones de todo el proceso de desarrollo. Me considero resolutivo, autónomo y proactivo a la vez que jugador de equipo y colaborador. A lo largo de este tiempo he tenido la suerte de rodearme de los mejores gracias a lo cual he podido desarrollarme constantemente no sólo en la oficina si no fuera de ella con algún proyecto personal siempre entre manos.",
+    "goals": "Soy un programador con +<script>document.write(Math.floor((new Date() - new Date('2016-06-01') )/ (1000 * 60 * 60 * 24 * 365)))</script> años de experiencia. Comencé mi carrera profesional especializándome en frontend y es el ámbito que me apasiona. Pero en mi evolución busco la versatilidad y por eso amplío mis conocimientos trabajando como fullstack diariamente participando en las decisiones y soluciones de todo el proceso de desarrollo. Me considero resolutivo, autónomo y proactivo a la vez que jugador de equipo y colaborador. A lo largo de este tiempo he tenido la suerte de rodearme de los mejores gracias a lo cual he podido desarrollarme constantemente no sólo en la oficina si no fuera de ella con algún proyecto personal siempre entre manos.",
     "education": {
       "title": "Educación",
       "degree": "Ingeniería Industrial Electrónica",
@@ -95,7 +95,7 @@
       "to": "index"
     },
     "position": "(Web || JavaScript) Developer",
-    "goals": "I am a +<script type=\"application/javascript\">document.write(Math.floor((new Date() - new Date('06-01-2016') )/ (1000 * 60 * 60 * 24 * 365)))</script> years of experience developer. I started my professional career specialized in fronted and that is the realm that I am passionate about.But trying to be more versatile, I am evolving widen my knowledge working as a fullstack developer daily taking part in the decision process and searching for solutions in the whole development process. I consider myself an autonomous, problem solver and proactive person while also being a team player and collaborative. All along this time I have been lucky enough to be surrounded by great people from whom I have learned a lot and developed my skills not only in the workplace but also with some side projects.",
+    "goals": "I am a +<script>document.write(Math.floor((new Date() - new Date('2016-06-01') )/ (1000 * 60 * 60 * 24 * 365)))</script> years of experience developer. I started my professional career specialized in fronted and that is the realm that I am passionate about.But trying to be more versatile, I am evolving widen my knowledge working as a fullstack developer daily taking part in the decision process and searching for solutions in the whole development process. I consider myself an autonomous, problem solver and proactive person while also being a team player and collaborative. All along this time I have been lucky enough to be surrounded by great people from whom I have learned a lot and developed my skills not only in the workplace but also with some side projects.",
 
     "education": {
       "title": "Education",
